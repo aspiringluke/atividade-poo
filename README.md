@@ -1,6 +1,6 @@
 # Atividade-POO
 _Atividade de Orientação a Objetos passada pelo professor Marcelo no dia 28/08_
-## Autores: 
+## Autores 
 - Lucas Paulino Gomes, RA: (não lembro);
 - Enzo Daniel Abreu, RA: **24001463**
 # Pauta
