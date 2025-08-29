@@ -1,0 +1,18 @@
+{
+  "name": "atividade-poo",
+  "version": "1.0.0",
+  "description": "Atividade de Orientação a Objetos passada pelo professor no dia 28/08",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node ./dist/main.js"
+  },
+  "keywords": [],
+  "authors": ["Lucas Paulino Gomes", "Enzo Daniel Abreu"],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
