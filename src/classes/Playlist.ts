@@ -1,4 +1,4 @@
-import { Video } from "./video";
+import { Video } from "./Video.js";
 
 export class Playlist {
   private _videos: Video[] = [];
@@ -30,7 +30,7 @@ export class Playlist {
     return true;
   }
 
-  getCurrent(): Video | null {
+  getCurrent(): Video | null | undefined {
     if (this._videos.length == 0) return null;
     return this._videos[this._currentIndex];
   }
