@@ -8,15 +8,22 @@ A atividade tem como objetivo revisar os 4 pilares da orientação a objetos, se
 # Execução
 Para executar o código, atenda aos seguintes requerimentos:
 - Certifique-se de ter _Node.js_ em versões recentes.
-- Abra o Visual Studio.
-- Abra uma pasta no Visual Studio (Ctrl+O).
-- Abra o tereminal (Ctrl+Shift+') e execute os seguintes comandos:
+- Abra o terminal (Ctrl+Shift+') e execute os seguinte comando:
 ```bash
-npm init -y
-npm i typescript ts-node @types/node --save-dev
+npm i 
 ```
 - Crie uma pasta "src/" e nela insira os arquivos .ts do projeto.
 - Execute a simulação no terminal com o comando:
 ```bash
-npx ts-node src/main.ts
+npm start
 ```
+
+## Nota
+
+Acabamos demorando mais que o esperado para desenvolver a atividade,
+por isso ela se encontra incompleta.
+Decerto precisamos ser mais ágeis no nosso
+desenvolvimento, mas não há o que possa ser feito agora.
+Por isso um de nós irá criar um fork do repositório
+e terminá-lo por conta, porque apesar de não
+ter a agilidade ou a urgência, o interesse existe.
