@@ -14,23 +14,6 @@ Para executar o código, atenda aos seguintes requerimentos:
 ```bash
 npm init -y
 npm i typescript ts-node @types/node --save-dev
-npx tsc --init
-```
-- Edite o arquivo "tsconfig.ts" para conter:
-```json
-{
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
-    "rootDir": "src",
-    "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
-  },
-  "include": ["src"]
-}
 ```
 - Crie uma pasta "src/" e nela insira os arquivos .ts do projeto.
 - Execute a simulação no terminal com o comando:
